@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+dist
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+yarn.lock
+
+# env
+.env
+
+# artifacts/cache/data
+artifacts
+cache
+data
+
+coverage.json
+
+@openzeppelin
+bsc-library
+
+Flatten*
+
+.idea
